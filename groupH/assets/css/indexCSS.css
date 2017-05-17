@@ -1,0 +1,32 @@
+h1 {
+  margin-top: 200px;
+  color: black;
+  text-align: center;
+  font-family: Arial; }
+
+form {
+  text-align: center; }
+
+.formtext {
+  margin-bottom: 10px;
+  color: #000000;
+  font-family: Arial; }
+
+.formfield {
+  /*border: 0px solid #9194b3;*/
+  /* background: #b1e2f2; */
+  /* color: #000000; */
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 280px; }
+
+.button {
+  padding: 10px 24px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  /*background-color: blue;*/ }
+
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+
+/*# sourceMappingURL=indexCSS.css.map */

@@ -1,0 +1,261 @@
+#login {
+  background-image: url(/groupH/assets/img/Health.jpg); }
+  #login h1 {
+    margin-top: 0; }
+  #login form {
+    margin-bottom: 0; }
+  #login input {
+    width: 100%;
+    display: block; }
+  #login .button {
+    box-shadow: none; }
+
+body {
+  background-color: #b3ecff;
+  background-image: none; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+  table th, table td {
+    padding: 10px; 
+  }
+  table th{
+	  white-space: nowrap;
+  }
+  table tr {
+    width: 100%; }
+    table tr:nth-child(odd) {
+      background-color: #efefef; }
+    table tr td {
+      cellspacing: 0; }
+    table tr a {
+      display: block; }
+  table.hover tr:hover {
+    background-color: #3498db;
+    color: white; }
+    table.hover tr:hover td a {
+      color: white; }
+
+.vitalSign {
+  margin: 0; }
+
+textarea {
+  resize: none;
+  height: 150px; }
+
+input,
+textarea {
+  width: 100%; }
+
+h2 {
+  margin-top: 5vw; }
+
+#home .mainDiv {
+  background-color: white;
+  padding: 5vw; }
+
+a {
+  color: black; }
+
+.mainDiv {
+  margin-top: 5vw; }
+
+input[type="submit"] {
+  margin: 4vw 0; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+html {
+  margin: 0;
+  min-width: 320px;
+  height: 100%;
+  word-break: break-word; }
+
+body {
+  margin: 0;
+  min-height: 100%; }
+
+main {
+  min-height: 100%;
+  padding: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0; }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 800px;
+  margin: auto; }
+
+/* Resets */
+.graph-container,
+.graph-container div,
+.graph-container a,
+.graph-container span {
+  margin: 0;
+  padding: 0; }
+
+/* Gradinet and Rounded Corners */
+.graph-container, #tooltip, .graph-info a {
+  background: #ffffff;
+  background: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 100%);
+  border-radius: 3px; }
+
+/* Graph Container */
+.graph-container {
+  position: relative;
+  width: 550px;
+  height: 300px;
+  padding: 20px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1); }
+
+.graph-container > div {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 10px;
+  left: 25px; }
+
+.graph-info {
+  width: 590px;
+  margin-bottom: 10px; }
+
+/* Color Circles */
+.graph-info a:before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 8px;
+  height: 8px;
+  top: 13px;
+  left: 13px;
+  border-radius: 5px; }
+
+.graph-info .visitors {
+  border-bottom: 2px solid #71c73e; }
+
+.graph-info .returning {
+  border-bottom: 2px solid #77b7c5; }
+
+.graph-info .visitors:before {
+  background: #71c73e; }
+
+.graph-info .returning:before {
+  background: #77b7c5; }
+
+/* Lines & Bars Buttons */
+#lines, #bars {
+  width: 34px;
+  height: 32px;
+  padding: 0;
+  margin-right: 0;
+  margin-left: 10px;
+  border-bottom: 2px solid #71c73e;
+  float: right;
+  cursor: pointer; }
+
+#lines.active, #bars.active {
+  background: #82d344;
+  background: linear-gradient(to bottom, #82d344 0%, #71c73e 100%); }
+
+#lines span, #bars span {
+  display: block;
+  width: 34px;
+  height: 32px;
+  background: url("../img/lines.png") no-repeat 9px 12px; }
+
+#bars span {
+  background: url("../img/bars.png") no-repeat center 10px; }
+
+#lines.active span {
+  background-image: url("../img/lines_active.png"); }
+
+#bars.active span {
+  background-image: url("../img/bars_active.png"); }
+
+/* Clear Floats */
+.graph-info:before, .graph-info:after,
+.graph-container:before, .graph-container:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.button,
+input[type="submit"] {
+  display: inline-block;
+  min-width: 300px;
+  border: none;
+  border-radius: 0;
+  background-color: #3498db;
+  border: 0;
+  color: #ffffff; }
+  .button:hover,
+  input[type="submit"]:hover {
+    background-color: #2980b9; }
+
+.logoutbutton,
+.homeButton {
+  background-color: #3498db; }
+  .logoutbutton:hover,
+  .homeButton:hover {
+    background-color: #2980b9; }
+
+.tabs .tab {
+  background-color: white;
+  display: none;
+  padding: 5vw; }
+  .tabs .tab.open {
+    display: block; }
+
+#tabnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2vw;
+  border-bottom: 1px solid black; }
+  #tabnav a {
+    width: 100%;
+    display: block;
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none; }
+    #tabnav a.active {
+      background-color: #3498db;
+      color: white; }
+
+#login {
+  background-size: cover; }
+  #login main {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  #login .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+/*# sourceMappingURL=dario.css.map */
