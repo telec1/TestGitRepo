@@ -3,6 +3,9 @@
 		<link rel="stylesheet" href="/groupH/assets/css/styleHomeWindow.css" type="text/css" />
 		<link rel="stylesheet" href="/groupH/assets/css/new.css" type="text/css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
+		
+		
 		<script src="/groupH/assets/js/main.js"></script>
 	</head>
 	<body><div class="mainDiv">
