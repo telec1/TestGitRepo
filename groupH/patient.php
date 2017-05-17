@@ -7,6 +7,7 @@
 		
 		
 		<script src="/groupH/assets/js/main.js"></script>
+		
 	</head>
 	<body><div class="mainDiv">
 	
